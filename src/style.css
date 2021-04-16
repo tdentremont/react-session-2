@@ -1,0 +1,35 @@
+h1, p {
+  font-family: Lato;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.main-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  min-height: calc(100vh - 350px);
+  background-image: linear-gradient(to top, #fdfdfc, #d2d9df);
+  padding-top: 70px;
+  text-align: center;
+}
+
+.secondary-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  min-height: 200px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
